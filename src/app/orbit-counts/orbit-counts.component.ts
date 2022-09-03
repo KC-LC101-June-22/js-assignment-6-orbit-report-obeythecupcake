@@ -22,10 +22,8 @@ export class OrbitCountsComponent implements OnInit {
 		 if (this.satellites[i].type === type) {
 			count++;
 		 }
+	  } 
+	  return count;
 	  }
 	}
-	return count;
- }
-
-
 }
